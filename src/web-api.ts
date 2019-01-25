@@ -25,7 +25,7 @@ let contacts = [
     firstName:'Owen',
     lastName:'Barfield',
     email:'barfield@inklings.com',
-    phoneNumber:'867-5309'
+    phoneNumber:'867-5308'
   },
   {
     id:getId(),
