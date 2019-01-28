@@ -1,17 +1,4 @@
 <template>
-<<<<<<< HEAD
-    <div class="contact-list">
-        <ul class="list-group">
-            <li class="list-group-item" repeat.for="contact of contacts" ${contact.id === $parent.selectedId ? 'active': ''>
-                <a route-href="route: contacts; params.bind: {id:contact.id}" click.delegate="$parent.select(contact)">
-                    <h4>${contact.firstName} ${contact.lastName}</h4>
-                    <p>${contact.email}</p>
-                </a>
-            </li>
-        </ul>
-    </div>
-</template>
-=======
   <div class="contact-list">
     <ul class="list-group">
       <li class="list-group-item"
@@ -29,4 +16,3 @@
     </ul>
   </div>
 </template>
->>>>>>> users/daniel/dev-others
