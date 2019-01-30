@@ -1,7 +1,12 @@
+import { WebAPI } from './web-api';
 import { PLATFORM } from 'aurelia-pal';
 import { Router, RouterConfiguration } from 'aurelia-router'; 
+import { inject } from 'aurelia-framework';
 
+@inject(WebAPI)
 export class App {
+  constructor(public api: WebAPI){}
+
   router: Router;
   configureRouter(config: RouterConfiguration, router: Router) {
     config.title = 'Contacts';
